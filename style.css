@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: #000;
+    color: white;padding: 1rem;
+  
+    
+}
+.sidebarmenu{
+    background-color: #121212;
+    width: 380px;
+    border-radius: 1rem;  
+     color: white;
+    padding: 0.2rem;
+  
+}
+.maincontent{
+    background-color:#121212;
+    overflow: auto;
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 1rem; 
+    padding-left: 40px;
+    color: white;
+}
+.playmusic{
+    background-color:#000;
+    position: fixed;
+
+    bottom: 0;
+    height: 66px;
+    width: 100vw;  
+     color: white;
+}
+.navoption{
+    height: 175px;
+    border-radius: 1rem;
+    background-color: #191818c8;
+    margin-bottom: 7px;
+}
+header{
+    height: 44px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 20px ;
+    margin-left:15px;
+    padding: 0px 15px;
+    align-content: end;
+}
+ header img{
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    color: rgb(241, 241, 242);
+
+}
+.head p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 85px;
+    height: 24px;
+   
+   
+}
+.homesearch{
+    padding: 8px 12px;
+    height: 112px;
+    width: 353px;
+}
+.navoption .homesearch .home{
+    padding: 4px 12px;
+ height: 48px;
+ font-size: 18px;
+ display: flex;
+ align-items: baseline;
+ opacity: 0.5;
+ color: #b3b3b3;
+ font-weight: 800;
+}
+.home i{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+}
+
+.navoption .homesearch .search{
+    padding: 4px 12px;
+ height: 48px;
+ font-size: 18px;
+ display: flex;
+ align-items: baseline;
+ opacity: 0.75;
+ color: #b3b3b3;
+ font-weight: 800;
+}
+.search i{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+}
+.homesearch .home:hover{
+    opacity: 1;
+}
+.homesearch .search:hover{
+    opacity: 1;
+}
+.liboption{
+    background-color: #191818c8;
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+.liboption .libhead{
+    height: 56px;
+    width: 353px;
+    display: flex;
+    padding: 8px 16px;
+    font-size: 19px;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    
+    
+}
+
+.liboption .libhead img{
+    height: 27px;
+    padding: 4px 8px;
+    opacity: 0.7;
+
+ 
+}
+.liboption .libhead img:hover{
+    opacity: 1;
+
+}
+.liboption .libhead a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    align-content: baseline;
+    opacity: 0.8;
+   
+}
+.liboption .libhead a:hover{
+    opacity: 1;
+
+}
+
+.liboption .plusicon{
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    display: flex;
+    opacity: 0.5;
+    position: absolute;
+    left: 315px;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow{
+    position: absolute;
+    left: 353px;
+    opacity: 0.5;
+}
+.liboption i:hover{
+    opacity: 1;
+    background-color: #242424;
+    border-radius: 100%;
+}
+
+.playlist .badge {
+    border-radius: 15px;
+    padding: 4px 16px;
+    height: 34px;
+    width: 150px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.podcast .badge {
+    border-radius: 30px;
+    padding: 4px 16px;
+    height: 40px;
+    width: 175px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.liboption .playpod{
+    padding: 0px 8px 8px;
+    height: 330px;
+    width: 353px;  
+}
+.playpod .playlist{
+   padding:16px 20px;
+    margin:  8px 0px;
+    background-color: #242424;
+    border-radius: 1rem;
+    height: 120px;
+    width: 323.2px;
+    margin-bottom: 10px;
+}
+.playlist .paragh p{
+    padding: 0.25rem;
+}
+.playlist .paragh{
+    padding: 0.4rem;
+    height: 49.6px;
+    margin: 5px;
+}
+.playlist .paragh .p1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.playlist .paragh .p2{
+    font-size: 14px;
+    font-weight: 400;
+}
+.playpod .podcast{
+    
+        padding:16px 20px;
+         margin:  8px 0px;
+         background-color: #242424;
+         border-radius: 1rem;
+         height: 133px;
+         width: 323.3px;
+ }
+ .podcast .podpara p{
+    padding: 0.25rem;
+}
+.podcast .podpara
+{
+    padding: 0.4rem;
+}
+.podcast .p1{
+    font-weight: 600;
+    font-size: 16px;    
+}
+.podcast .p2{
+    font-weight: 400;
+    font-size: 14px;    
+}
+
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+   margin: 10px ;
+   display: flex;
+   justify-content: space-between;
+   z-index: 100;
+
+}
+.sticky-nav .badge{
+    border-radius: 30px;
+    padding: 4px 16px;
+    height: 40px;
+    width: fit-content;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+.sticky-nav-icon img{
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    opacity: 0.75;
+}
+.sticky-nav-icon img:hover{
+    border: 2px solid rgb(47, 45, 45);
+    border-radius: 50%;
+    opacity: 1;
+
+}
+.user{
+    padding-right: 16px;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+.cards-container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.card{
+    background-color: #242424;
+    width: 250px;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-top: 16px;
+    
+    padding: 16px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 6px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-info{
+    opacity: 0.7;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cardspacing{  
+    padding: 10px;
+}
+.line{
+    border-top: 2px solid #fff;
+    height: 170px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
