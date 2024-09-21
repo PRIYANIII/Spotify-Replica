@@ -12,8 +12,8 @@ This project is a **Spotify-inspired web player** that showcases a responsive us
 
 ## 🛠️ Technologies Used
 
-- **HTML5:** Structuring the webpage layout.
-- **CSS3:** Styling the components, animations, and responsive design.
+- **HTML:** Structuring the webpage layout.
+- **CSS:** Styling the components, animations, and responsive design.
 - **FontAwesome:** Adding icons to the navigation and controls.
 - **Google Fonts (Montserrat):** Used for typography.
 
@@ -25,6 +25,6 @@ This project is a **Spotify-inspired web player** that showcases a responsive us
 
 ## 🚀 Live Demo
 
- ### link[<a href=" https://priyaniii.github.io/Spotify-Replica/">Live Demo</a>]
+You can check out the live demo of the project here: [Live Demo](https://priyaniii.github.io/Spotify-Replica/)
 
  
