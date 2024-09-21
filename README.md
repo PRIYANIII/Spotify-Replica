@@ -25,6 +25,6 @@ This project is a **Spotify-inspired web player** that showcases a responsive us
 
 ## 🚀 Live Demo
 
- ### <a href=" https://priyaniii.github.io/Spotify-Replica/">Live Demo</a>
+ ### link[<a href=" https://priyaniii.github.io/Spotify-Replica/">Live Demo</a>]
 
  
